@@ -44,9 +44,17 @@ console.log("**************************")
 console.log("indexOf")
 var frutas=["Banana", "Ananas", "Pera", "Ananas"]
 var posicion=frutas.indexOf("Ananas")
-console.log("La posición de Ananas es: ", posicion)
+console.log("La primera aparición de Ananas es en la posición: ", posicion)
 
 if(frutas.indexOf("Manzana")==-1){
     console.log("Manzana no aparece")
 }
+console.log("**************************")
+
+//lastIndexOf
+console.log("lastIndexOf")
+var frutas=["Banana", "Ananas", "Pera", "Ananas", "amigos", "fruteria"]
+console.log(frutas)
+var posicion=frutas.lastIndexOf("Ananas")
+console.log("La posición del último elemento _Ananas es: ",posicion)
 console.log("**************************")
