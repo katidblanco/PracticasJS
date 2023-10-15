@@ -58,3 +58,13 @@ console.log(frutas)
 var posicion=frutas.lastIndexOf("Ananas")
 console.log("La posición del último elemento _Ananas es: ",posicion)
 console.log("**************************")
+
+//SLICE
+console.log("**SLICE**")
+var animales=["caballo", "perro", "elefante", "mariposa", "dinosaurio", "calamar"]
+console.log("Animales: ", animales)
+console.log( "SLICE() devuelve todos: ", animales.slice())
+console.log( "SLICE(3) devuelve desde el 3 en adelante: ", animales.slice(3)) 
+console.log( "SLICE(2,4) devuelve desde el 2 hasta el 4, no inclusive: ", animales.slice(2,4))
+console.log( "SLICE(-2) devuelve los últimos 2, va de atrás hacia adelante: ", animales.slice(-2)) 
+console.log( "SLICE(3,-1) devuelve desde el 1 hasta el último, no inclusive: ", animales.slice(3,-1 )) 
