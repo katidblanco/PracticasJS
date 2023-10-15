@@ -1,0 +1,17 @@
+*{
+    margin:0;
+}
+
+.contenedor{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 3em;
+    text-align: center;
+    padding: 5em;
+    background-color: bisque;
+}
+
+
+.titulo, .seleccionarFecha, .boton, .mostrarEdad{
+    padding-bottom: 3em;
+}
