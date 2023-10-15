@@ -38,7 +38,7 @@ h1{
     margin-top: 3em;
     text-align: center;
     padding: 4em;
-    background-color: bisque;
+    background-color: rgb(212, 243, 246);
     border-radius: 20px;
     
 }
@@ -71,4 +71,10 @@ h1{
 
 .selFecha input{
     margin-top: 1em;
+   
+    
+    
+   
+    
+
 }
